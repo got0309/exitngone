@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> EXiT and G0NE </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <marquee scrollamount="5" behavior="alternate">
+        <span id="rainbow-text" style="font-size: 20pt; font-weight: bold;">
+            ★ 비상구에 오신 것을 ★ 환영합니다 ★
+        </span>
+    </marquee>
+<br><br>
+    <div class="main-content">
+        <center><h2>▣§§§아래를 보세요...§§§▣</h2></center>
+        
+        <center>
+        <table border="0" width="90%" cellpadding="15">
+            <tr>
+                <td width="40%" align="center" valign="top">
+                    <div class="photo-frame">
+                        <img src="profile.jpg" width="200" alt="내 사진" style="border: 2px solid #000;">
+                        <p style="font-size: 9pt; margin-top: 5px;">▲ 현재 추구미</p>
+                    </div>
+                </td>
+
+                <td width="60%" valign="top">
+                    <table border="1" width="100%" bgcolor="#FFFFFF" cellpadding="8" style="border-collapse: collapse; border: 1px inset;">
+                        <tr>
+                            <td bgcolor="#000080" style="color: white; font-weight: bold;">Status</td>
+                            <td>Survive</td>
+                        </tr>
+                    </table>
+                    
+                    <br>
+                    <div class="intro-box">
+                        <b>[ 인사말 ]</b><br>
+                        Exit is end.<br>
+                        Here is way out...
+                    </div>
+                </td>
+            </tr>
+        </table>
+        </center>
+
+        <br><br>
+        
+        <div class="bottom-nav">
+            <center>
+                <a href="index.html" class="menu-btn" style="font-size: 15pt;">[ 돌아가기 ]</a>
+            </center>
+        </div>
+
+    </div> <script>
+    const rainbowText = document.getElementById('rainbow-text');
+    const colors = ['#FF0000', '#FF7F00', '#FFFF00', '#00FF00', '#0000FF', '#4B0082', '#8B00FF', '#FF00FF', '#00FFFF'];
+
+    function changeColor() {
+        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+        rainbowText.style.color = randomColor;
+        rainbowText.style.textShadow = "1px 1px #000000"; 
+    }
+    setInterval(changeColor, 300);
+</script>
+</body>
+</html>

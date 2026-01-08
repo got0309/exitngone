@@ -103,3 +103,23 @@ a:hover {
     background-color: yellow;
     color: red;
 }
+
+.photo-frame {
+    background-color: #ffffff;
+    padding: 10px;
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    display: inline-block;
+}
+
+/* 인사말 박스 스타일 */
+.intro-box {
+    background-color: #f0f0f0;
+    border: 1px dashed #000080;
+    padding: 10px;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #333;
+}
