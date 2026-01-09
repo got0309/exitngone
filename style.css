@@ -16,7 +16,7 @@ body {
     font-family: "돋움", dotum, sans-serif;
 
     /* 무료 패턴 이미지 예시 (종이 질감 또는 우주) */
-    background-image: url('saya.jpg'); 
+    background-image: url("image/saya.jpg");
     background-repeat: repeat; /* 이미지가 작아도 바둑판식으로 채워짐 */
     background-attachment: fixed; /* 스크롤해도 배경은 고정되는 그 시절 기술! */
     background-size: 200px auto;
